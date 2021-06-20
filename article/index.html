@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedTownServer|記事</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- semantic.css  -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+  <!-- semantic.js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../head.css">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MCRedTownServer">
+  <meta name="twitter:creator" content="@MCRedTownServer">
+</head>
+
+<body>
+  <div class="computers">
+    <div class="ui fixed borderless huge menu">
+      <div class="ui container">
+        <div class="ui red header item title">
+          <div class="content">
+            <img src="../logo.svg" height="25em" width="auto" alt="RedTownServer logo">
+            <div class="sub header">
+              MinecraftServer
+            </div>
+          </div>
+        </div>
+        <a href="/" class="item right">Home</a>
+        <a href="/article/?name=about" class="item">About</a>
+        <a class="item">Staff</a>
+        <div class="ui simple dropdown item">
+          Social<i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="https://twitter.com/mcredtownserver" class="item">Twitter</a>
+            <a href="https://discord.com/invite/4cEuhAp" class="item">Discord</a>
+            <a href="https://minecraft.jp/servers/56ffb2cf4ddda1a7260041cb" class="item">JMS</a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="./join/"><button class="ui red button">Join</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile">
+    <div class="ui fixed borderless huge menu">
+      <div class="ui container">
+        <div class="ui red header item title">
+          <div class="content">
+            <img src="../logo.svg" height="25em" width="auto" alt="RedTownServer logo">
+            <div class="sub header">
+              MinecraftServer
+            </div>
+          </div>
+        </div>
+        <div class="ui simple dropdown item right">
+          Menu<i class="ellipsis vertical"></i>
+          <div class="menu">
+            <a href="#" class="item">Home</a>
+            <a href="/article/?name=about" class="item">About</a>
+            <a href="#" class="item">Staff</a>
+            <div class="ui simple dropdown item">
+              Social<i class="dropdown icon"></i>
+              <div class="menu">
+                <a href="https://twitter.com/mcredtownserver" class="item">Twitter</a>
+                <a href="https://discord.com/invite/4cEuhAp" class="item">Discord</a>
+                <a href="https://minecraft.jp/servers/56ffb2cf4ddda1a7260041cb" class="item">JMS</a>
+              </div>
+            </div>
+            <a href="./join/" class="item">Join</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--記事-->
+  <div class="article-title ui fluid" style="background-color: #fe4949;">
+    <div class="ui container">
+      <h1 id="title" style="font-size: xx-large;color: whitesmoke">RedTownServer ホームページ</h1>
+      <div class="ui breadcrumb">
+        <a class="section" style="color:#481410">Home</a>
+        <i class="right angle icon divider"></i>
+        <div class="active section" id="bread-title">Invalied</div>
+        <div id="tags" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container">
+    <div class="ui text-container page-contents">
+      <div id="article" style="overflow-x: scroll; overflow-y: visible;"></div>
+      <div id="error" class="ui error message hidden">
+        <p>記事が正常に読み込まれませんでした。</p>
+      </div>
+      <div>
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+          <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+          <a class="a2a_button_twitter"></a>
+          <a class="a2a_button_copy_link"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
+      </div>
+    </div>
+    <div class="recommend-outer">
+      <div class="ui header">おすすめ</div>
+      <div class="ui three column grid stackable">
+        <div class="column">
+          <div class="ui segment recommend">
+            <a href="#" id="rec-f-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="rec-f-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="rec-f-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="rec-f-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment recommend">
+            <a href="#" id="rec-s-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="rec-s-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="rec-s-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="rec-s-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment recommend">
+            <a href="#" id="rec-t-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="rec-t-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="rec-t-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="rec-t-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footter" style="background: #1B1C1D">
+    <div class="ui container">
+      <div class="ui center aligned basic segment">
+        <p style="color: white">©RedTownServer</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.recommend .image').dimmer({
+        on: 'hover'
+      });
+      $('.ui.dropdown').dropdown();
+      var target = $("#article");
+      var p = getParams(params);
+      if (!p.hasOwnProperty("name")) {
+        target.append("Failed to load");
+        return;
+      }
+      var settingFile = "./posts/" + p["name"] + ".json";
+      var settings = { "title": "null" };
+      var title = "";
+      var description = "";
+      var tags = [];
+      var articleFile = "";
+      var thumbnail = null;
+      var tagTarget = $("#tags");
+      $.ajax({
+        type: 'GET',
+        url: settingFile,
+        dataType: 'json',
+        success: function (data) {
+          title = data["title"];
+          description = data["desc"];
+          tags = data["tags"];
+          for (tag in tags) {
+            var tagItem = document.createElement("p");
+            tagItem.classList.add("ui");
+            tagItem.classList.add("tag");
+            tagItem.classList.add("aa");
+            tagItem.classList.add("label");
+            tagItem.innerText = tags[tag];
+            tagTarget.append(tagItem);
+          }
+          articleFile = data["url"];
+          thumbnail = data["thumbnail"];
+          var doc = document;
+          var head = doc.getElementsByTagName("head")[0];
+          var metaTitle = doc.createElement("meta");
+          metaTitle.setAttribute("property", "og:title");
+          metaTitle.setAttribute("content", title);
+          head.appendChild(metaTitle);
+          var metaDesc = doc.createElement("meta");
+          metaDesc.setAttribute("name", "description");
+          metaDesc.setAttribute("content", description);
+          head.appendChild(metaDesc);
+          var metaDescription = doc.createElement("meta");
+          metaDescription.setAttribute("property", "og:description");
+          metaDescription.setAttribute("content", description);
+          head.appendChild(metaDescription);
+          var metaURL = doc.createElement("meta");
+          metaURL.setAttribute("property", "og:url");
+          metaURL.setAttribute("content", location.href);
+          head.appendChild(metaURL);
+          if (thumbnail != null) {
+            var metaImage = doc.createElement("meta");
+            metaImage.setAttribute("property", "og:image");
+            metaImage.setAttribute("content", thumbnail);
+            head.appendChild(metaImage);
+          }
+          $('#title').text(title);
+          $('#bread-title').text(title);
+          document.title = title + " | RedTownServer";
+          $.ajax({
+            url: articleFile,
+            dataType: 'text',
+            success: function (dataValue) {
+              if (articleFile.endsWith("md")) {
+                target.append(marked(dataValue));
+              } else if (articleFile.endsWith("html")) {
+                target.append(dataValue);
+              }
+            },
+            error: function (dataValue) {
+              target.append("Failed to load");
+            }
+          });
+        },
+        error: function (data) {
+          target.append("Failed to load");
+          $('#error').show();
+          return;
+        }
+      });
+      $.ajax({
+        url: "/article/post.json",
+        dataType: 'json',
+        success: function (dataValue) {
+          const rec1 = dataValue[getRandomInt(dataValue.length)];
+          $.ajax({
+            url: "/article/posts/" + rec1 + ".json",
+            dataType: 'json',
+            success: function (articleData) {
+              $('#rec-f-title').text(articleData["title"]);
+              $('#rec-f-description').text(articleData["desc"]);
+              $('#rec-f-img').attr("src", articleData["thumbnail"]);
+              $('#rec-f-ref').attr("href", "./?name=" + rec1);
+            },
+            error: function (articleData) {
+            }
+          });
+          const rec2 = dataValue[getRandomInt(dataValue.length)];
+          $.ajax({
+            url: "/article/posts/" + rec2 + ".json",
+            dataType: 'json',
+            success: function (articleData) {
+              $('#rec-s-title').text(articleData["title"]);
+              $('#rec-s-description').text(articleData["desc"]);
+              $('#rec-s-img').attr("src", articleData["thumbnail"]);
+              $('#rec-s-ref').attr("href", "./?name=" + rec2);
+            },
+            error: function (articleData) {
+            }
+          });
+          const rec3 = dataValue[getRandomInt(dataValue.length)];
+          $.ajax({
+            url: "/article/posts/" + rec3 + ".json",
+            dataType: 'json',
+            success: function (articleData) {
+              $('#rec-t-title').text(articleData["title"]);
+              $('#rec-t-description').text(articleData["desc"]);
+              $('#rec-t-img').attr("src", articleData["thumbnail"]);
+              $('#rec-t-ref').attr("href", "./?name=" + rec3);
+            },
+            error: function (articleData) {
+            }
+          });
+        },
+        error: function (dataValue) {
+        }
+      });
+    });
+    const params = location.href;
+    function getParams(params) {
+      const regex = /[?&]([^=#]+)=([^&#]*)/g;
+      const params_obj = {};
+      let match;
+      while (match = regex.exec(params)) {
+        params_obj[match[1]] = match[2];
+      }
+      return params_obj;
+    }
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+  </script>
+</body>
+
+</html>

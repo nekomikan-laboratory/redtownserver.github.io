@@ -1,0 +1,25 @@
+.page-contents {
+  padding-top: 6em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.article-title {
+  padding-top: 12em;
+  padding-bottom: 6em;
+}
+
+.page-contents {
+  padding-bottom: 3em;
+}
+
+.link {
+  transition: ease;
+}
+.aa::after {
+  background-color: #fe4949;
+}
+
+.recommend-outer {
+  margin-bottom: 8em;
+}

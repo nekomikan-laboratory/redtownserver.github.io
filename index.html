@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RedTownServer</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- semantic.css  -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+  <!-- semantic.js  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="../head.css">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@MCRedTownServer">
+  <meta name="twitter:creator" content="@MCRedTownServer">
+  <style>
+    .first {
+      background-image: url("image/head-bg-1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 16em 0em;
+    }
+
+    .first-content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 0.6em;
+      border-top: #fe4949 solid 5px;
+    }
+
+    .second {
+      padding: 0.6em 0em;
+    }
+
+    .second-item-inner {
+      border: #fe4949 solid 2px;
+      border-radius: 5px;
+      padding: 3em 1em;
+      background-color: #fd3939;
+      color: white;
+    }
+
+    .second-item-inner .header {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="computers">
+    <div class="ui fixed borderless huge menu">
+      <div class="ui container">
+        <div class="ui red header item title">
+          <div class="content">
+            <img src="../logo.svg" height="25em" width="auto" alt="RedTownServer logo">
+            <div class="sub header">
+              MinecraftServer
+            </div>
+          </div>
+        </div>
+        <a class="item right active">Home</a>
+        <a href="/article/?name=about" class="item">About</a>
+        <a class="item">Staff</a>
+        <div class="ui simple dropdown item">
+          Social<i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="https://twitter.com/mcredtownserver" class="item">Twitter</a>
+            <a href="https://discord.com/invite/4cEuhAp" class="item">Discord</a>
+            <a href="https://minecraft.jp/servers/56ffb2cf4ddda1a7260041cb" class="item">JMS</a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="./join/"><button class="ui red button">Join</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile">
+    <div class="ui fixed borderless huge menu">
+      <div class="ui container">
+        <div class="ui red header item title">
+          <div class="content">
+            <img src="../logo.svg" height="25em" width="auto" alt="RedTownServer logo">
+            <div class="sub header">
+              MinecraftServer
+            </div>
+          </div>
+        </div>
+        <div class="ui simple dropdown item right">
+          Menu<i class="ellipsis vertical"></i>
+          <div class="menu">
+            <a href="#" class="item active">Home</a>
+            <a href="/article/?name=about" class="item">About</a>
+            <a href="#" class="item">Staff</a>
+            <div class="ui simple dropdown item">
+              Social<i class="dropdown icon"></i>
+              <div class="menu">
+                <a href="https://twitter.com/mcredtownserver" class="item">Twitter</a>
+                <a href="https://discord.com/invite/4cEuhAp" class="item">Discord</a>
+                <a href="https://minecraft.jp/servers/56ffb2cf4ddda1a7260041cb" class="item">JMS</a>
+              </div>
+            </div>
+            <a href="./join/" class="item">Join</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="first">
+    <div class="ui vertical center aligned segment">
+      <div class="ui text container first-content">
+        <div class="ui header">
+          <div style="width: 80%;margin-left: auto;margin-right: auto;">
+            <p style="text-align: left;color: white;">始めよう。</p>
+            <img src="logo.svg" alt="RedTownServerLogo" style="width: 100%;">
+          </div>
+        </div>
+        <h3 style="color: white">Minecraft Java版で楽しむ、イベントサーバー。</h3>
+        <div class="ui huge inverted red button">Join Now<i class="right arrow icon"></i></div>
+      </div>
+    </div>
+  </section>
+  <section class="second">
+    <div class="ui center aligned column grid stackable">
+      <div class="four wide column second-item" style="padding: 3em 2em 3.5em 2em;">
+        <div class="ui center aligned second-item-inner">
+          <div class="ui ">
+            <div class="second-item-content content" style="padding: 0.8em 1.2em">
+              <div class="ui header">
+                <i class="flask icon"></i>
+                定期イベント開催中！
+              </div>
+              <div class="description">
+                <h5>「鬼ごっこ」「逃走中」「アスレ」「人狼PvP」をはじめとする、様々なイベントを実施！大勢の人と遊ぶマイクラはやっぱり楽しい！よね！</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="four wide column second-item" style="padding: 3em 2em 3.5em 2em;">
+        <div class="ui center aligned second-item-inner">
+          <div class="ui ">
+            <div class="second-item-content content" style="padding: 0.8em 1.2em">
+              <div class="ui header">
+                <i class="bicycle icon"></i>
+                大型参加型イベント
+              </div>
+              <div class="description">
+                <h5>食べようと思っていた大好きな刺身が腐っていた時の衝撃のような、自称日本最大の大型イベントを年二回開催！</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="four wide column second-item" style="padding: 3em 2em 3.5em 2em;">
+        <div class="ui center aligned second-item-inner">
+          <div class="ui ">
+            <div class="second-item-content content" style="padding: 0.8em 1.2em">
+              <div class="ui header">
+                <i class="check icon"></i>
+                意見を取り入れ変えていく
+              </div>
+              <div class="description">
+                <h5>サーバー運営5年目。「イベント提案募集」「制作物提供」「運営募集」を通して、幅広く意見を取り入れ、日々制作に励んでいます。</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="ui section divider"></div>
+  <section class="three">
+    <div class="ui text container">
+      <div class="ui center aligned basic segment grid stackable">
+        <div class="sixteen wide column content">
+          <div class="ui header">
+            <h2 style="color: red">この規模、RTSしか勝たん。</h2>
+          </div>
+          <div class="text">
+            毎年8月前半に「RTS夏祭り」、12月後半に「RTSクリスマスパーティー」という大型企画を行っています。６個～１０個のイベントを１～２日に分けて開催する、自称日本最大規模の参加型企画。
+          </div>
+        </div>
+      </div>
+      <div class="ui hidden divider" style="padding-top: 2em;"></div>
+      <div class="ui container">
+        <div class="ui items">
+          <div class="item">
+            <div class="image">
+              <img srcset="image/four-image-1.png" src="image/four-image-1.webp">
+            </div>
+            <div class="content">
+              <h3 class="header">プレイヤー同士の競い合い！</h3>
+              <div class="description">
+                <p>２０人規模で開催しているイベント！いろんな人と競い合いながら、協力し合いながら。</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img srcset="image/four-image-2.png" src="image/four-image-2.webp">
+            </div>
+            <div class="content">
+              <h3 class="header">史上最大レベルで遊びやすい！</h3>
+              <div class="description">
+                <p>２０２１年の目標は、「史上最大規模」にすること、且つ参加する側としても、実施する側としても楽しめまくるイベント。</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img srcset="image/four-image-3.png" src="image/four-image-3.webp">
+            </div>
+            <div class="content">
+              <h3 class="header">すべて自家製が目標！</h3>
+              <div class="meta">
+                <p>運営内だけで作り上げたいんです！</p>
+              </div>
+              <div class="description">
+                <p>システム、建築、リソースパック等、RTS内だけで作りたい！それが最終目標。</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img srcset="image/four-image-4.png" src="image/four-image-4.webp">
+            </div>
+            <div class="content">
+              <h3 class="header">ぴーんぽーんぱーんぽーん。</h3>
+              <div class="description">
+                <p>運営が足りていません！ご応募、お待ちしております！</p>
+                <a href="#"><button class="ui inverted positive button">運営になる<i class="right arrow icon"></i></button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="ui section divider"></div>
+  <section class="four">
+    <div class="ui text container segment">
+      <div class="ui header center aligned" style="color: #fe4949">
+        <h2>イベント開催予定</h2>
+      </div>
+      <div class="ui relaxed divided list" id="event-list">
+      </div>
+      <div style="text-align: center;">
+        <p>その他、臨時でイベントを開催！</p>
+        <p>Discordに参加してお知らせを確認しよう！</p>
+        <a href="https://discord.com/invite/4cEuhAp"><button class="ui inverted primary button"><i class="discord icon"></i>Discord</button></a>
+      </div>
+    </div>
+  </section>
+  <div class="ui section divider"></div>
+  <section class="five">
+    <div class="news-outer ui container">
+      <div class="ui header">
+        <h2 style="text-align: center;">News</h2>
+      </div>
+      <div class="ui three column grid stackable">
+        <div class="column">
+          <div class="ui segment news">
+            <a href="article/" id="news-f-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="news-f-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="news-f-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="news-f-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+              <div id="news-f-title2" class="ui header">Not Found</div>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment news">
+            <a href="article/" id="news-s-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="news-s-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="news-s-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="news-s-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+              <div id="news-s-title2" class="ui header">Not Found</div>
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui segment news">
+            <a href="article/" id="news-t-ref">
+              <div class="blurring dimmable image">
+                <div class="ui dimmer">
+                  <div class="content">
+                    <div class="center">
+                      <div id="news-t-title" class="ui header" style="color: aliceblue">Not Found</div>
+                      <div id="news-t-description" class="description">
+                        Not Found description
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ui image">
+                  <img id="news-t-img" src="../image/four-image-1.png">
+                </div>
+              </div>
+              <div id="news-t-title2" class="ui header">Not Found</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footter" style="background: #1B1C1D">
+    <div class="ui container">
+      <div class="ui center aligned basic segment">
+        <p style="color: white">©RedTownServer</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $('.news .image').dimmer({
+        on: 'hover'
+      });
+      var target = $('#event-list');
+      $.ajax({
+        url: "events.json",
+        dataType: 'json',
+        success: function (dataValue) {
+          console.log(dataValue)
+          var now = new Date();
+          const nowTime = now.getFullYear() * 100000000 + (now.getMonth() + 1) * 1000000 + now.getDate() * 10000 + now.getHours() * 100 + now.getMinutes();
+          for (name in dataValue) {
+            var title = dataValue[name]["title"];
+            var start = new Date(dataValue[name]["start"]["Year"], dataValue[name]["start"]["Month"], dataValue[name]["start"]["Day"], dataValue[name]["start"]["Hour"], dataValue[name]["start"]["Minute"]);
+            var end = new Date(dataValue[name]["end"]["Year"], dataValue[name]["end"]["Month"], dataValue[name]["end"]["Day"], dataValue[name]["end"]["Hour"], dataValue[name]["end"]["Minute"]);
+            var description = dataValue[name]["description"];
+            var url = dataValue[name]["url"];
+            const startTime = start.getFullYear() * 100000000 + start.getMonth() * 1000000 + start.getDate() * 10000 + start.getHours() * 100 + start.getMinutes();
+            if (startTime < nowTime) {
+              const endTime = end.getFullYear() * 100000000 + end.getMonth() * 1000000 + end.getDate() * 10000 + end.getHours() * 100 + end.getMinutes();
+              if (endTime < nowTime) {
+                // 終了
+                var item = document.createElement("div");
+                item.style.padding = "0.5em"
+                item.classList.add("item");
+                var icon = document.createElement("i");
+                icon.classList.add("large");
+                icon.classList.add("calendar");
+                icon.classList.add("times");
+                icon.classList.add("outline");
+                icon.classList.add("middle");
+                icon.classList.add("aligned");
+                icon.classList.add("icon");
+                icon.style.color = "#aaaaaa";
+                item.appendChild(icon);
+                var content = document.createElement("div");
+                content.classList.add("content");
+                var header = document.createElement("p");
+                header.classList.add("header");
+                header.innerText = title;
+                header.style.color = "gray";
+                header.setAttribute("href", url);
+                content.appendChild(header);
+                var extra = document.createElement("div");
+                extra.classList.add("extra");
+                extra.innerText = start.getFullYear() + "/" + ('00' + start.getMonth()).slice(-2) + "/" + ('00' + start.getDate()).slice(-2) + " " + ('00' + start.getHours()).slice(-2) + ":" + ('00' + start.getMinutes()).slice(-2) + "~";
+                extra.style.color = "gray";
+                content.appendChild(extra);
+                var desc = document.createElement("div");
+                desc.classList.add("description");
+                desc.innerText = description;
+                desc.style.color = "gray";
+                content.appendChild(desc);
+                item.appendChild(content);
+                target.append(item);
+                console.log("aaaa");
+              } else {
+                // 開催中
+                var item = document.createElement("div");
+                item.classList.add("item");
+                item.style.border = "green solid 1px";
+                item.style.padding = "0.5em"
+                var icon = document.createElement("i");
+                icon.classList.add("large");
+                icon.classList.add("calendar");
+                icon.classList.add("check");
+                icon.classList.add("outline");
+                icon.classList.add("middle");
+                icon.classList.add("aligned");
+                icon.classList.add("icon");
+                icon.style.color = "#49fe60";
+                item.appendChild(icon);
+                var content = document.createElement("div");
+                content.classList.add("content");
+                var header = document.createElement("a");
+                header.classList.add("header");
+                header.innerText = title + " 【開催中】";
+                header.setAttribute("href", url);
+                content.appendChild(header);
+                var extra = document.createElement("div");
+                extra.classList.add("extra");
+                extra.innerText = start.getFullYear() + "/" + ('00' + start.getMonth()).slice(-2) + "/" + ('00' + start.getDate()).slice(-2) + " " + ('00' + start.getHours()).slice(-2) + ":" + ('00' + start.getMinutes()).slice(-2) + "~";
+                extra.style.color = "orange";
+                content.appendChild(extra);
+                var desc = document.createElement("div");
+                desc.classList.add("description");
+                desc.innerText = description;
+                content.appendChild(desc);
+                item.appendChild(content);
+                target.append(item);
+                console.log("bbbb");
+              }
+            } else {
+              // これから
+              var item = document.createElement("div");
+              item.style.padding = "0.5em"
+              item.classList.add("item");
+              var icon = document.createElement("i");
+              icon.classList.add("large");
+              icon.classList.add("calendar");
+              icon.classList.add("alternate");
+              icon.classList.add("outline");
+              icon.classList.add("middle");
+              icon.classList.add("aligned");
+              icon.classList.add("icon");
+              icon.style.color = "#000000";
+              item.appendChild(icon);
+              var content = document.createElement("div");
+              content.classList.add("content");
+              var header = document.createElement("a");
+              header.classList.add("header");
+              header.innerText = title;
+              header.setAttribute("href", url);
+              content.appendChild(header);
+              var extra = document.createElement("div");
+              extra.classList.add("extra");
+              extra.innerText = start.getFullYear() + "/" + ('00' + start.getMonth()).slice(-2) + "/" + ('00' + start.getDate()).slice(-2) + " " + ('00' + start.getHours()).slice(-2) + ":" + ('00' + start.getMinutes()).slice(-2) + "~";
+              content.appendChild(extra);
+              var desc = document.createElement("div");
+              desc.classList.add("description");
+              desc.innerText = description;
+              content.appendChild(desc);
+              item.appendChild(content);
+              target.append(item);
+              console.log("cccc");
+            }
+          }
+        },
+        error: function (dataValue) {
+          target.append("Failed to load");
+        }
+      });
+      $.ajax({
+        url: "/article/post.json",
+        dataType: 'json',
+        success: function (dataValue) {
+          if (dataValue.length >= 1) {
+            $.ajax({
+              url: "/article/posts/" + dataValue[0] + ".json",
+              dataType: 'json',
+              success: function (articleData) {
+                $('#news-f-title').text(articleData["title"]);
+                $('#news-f-description').text(articleData["desc"]);
+                $('#news-f-img').attr("src", articleData["thumbnail"]);
+                $('#news-f-ref').attr("href", "article/?name=" + dataValue[0]);
+                $('#news-f-title2').text(articleData["title"]);
+              },
+              error: function (articleData) {
+              }
+            });
+            if (dataValue.length >= 2) {
+              $.ajax({
+                url: "/article/posts/" + dataValue[1] + ".json",
+                dataType: 'json',
+                success: function (articleData) {
+                  $('#news-s-title').text(articleData["title"]);
+                  $('#news-s-description').text(articleData["desc"]);
+                  $('#news-s-img').attr("src", articleData["thumbnail"]);
+                  $('#news-s-ref').attr("href", "article/?name=" + dataValue[1]);
+                  $('#news-s-title2').text(articleData["title"]);
+                },
+                error: function (articleData) {
+                }
+              });
+              if (dataValue.length >= 3) {
+                $.ajax({
+                  url: "/article/posts/" + dataValue[2] + ".json",
+                  dataType: 'json',
+                  success: function (articleData) {
+                    $('#news-t-title').text(articleData["title"]);
+                    $('#news-t-description').text(articleData["desc"]);
+                    $('#news-t-img').attr("src", articleData["thumbnail"]);
+                    $('#news-t-ref').attr("href", "article/?name=" + dataValue[2]);
+                    $('#news-t-title2').text(articleData["title"]);
+                  },
+                  error: function (articleData) {
+                  }
+                });
+              }
+            }
+          }
+        },
+        error: function (dataValue) {
+        }
+      });
+    })
+  </script>
+</body>
+
+</html>

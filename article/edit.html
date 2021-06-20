@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Editor</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+  <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sceditor@3/minified/themes/default.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sceditor@3/minified/sceditor.min.js"></script>
+</head>
+
+<body>
+  <h2>Markdown</h2>
+  <textarea id="md-editor"></textarea>
+  <input type="text" name="" id="md-filename" placeholder="ファイル名">
+  <button class="md-download" onclick="download()">
+    ファイルをダウンロードする
+  </button>
+  <br><br><br>
+  <h2>BBCode</h2>
+  <textarea id="bb-editor" style="width: 100%;height: 500px;"></textarea>
+  <input type="text" name="" id="bb-filename" placeholder="ファイル名">
+  <button class="bb-download" onclick="download2()">
+    ファイルをダウンロードする
+  </button>
+  <div id="temp"></div>
+  <script src="https://cdn.jsdelivr.net/npm/sceditor@3/minified/formats/bbcode.min.js"></script>
+  <script>
+    // Replace the textarea #example with SCEditor
+    var textarea = document.getElementById('bb-editor');
+    sceditor.create(textarea, {
+      format: 'bbcode',
+      style: 'https://cdn.jsdelivr.net/npm/sceditor@3/minified/themes/content/default.min.css'
+    });
+
+    var simplemde = new SimpleMDE({
+      element: document.getElementById("md-editor"),
+      spellChecker: false,
+    });
+
+    function download() {
+      console.log(simplemde.value());
+      var str = simplemde.value();
+      const blob = new Blob([str], { type: 'text/markdown' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      document.body.appendChild(a);
+      a.download = document.getElementById("md-filename").value + ".md";
+      a.href = url;
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+    function download2() {
+      var val = sceditor.instance(textarea).val();
+      var str = sceditor.instance(textarea).fromBBCode(val, true);
+      console.log(str);
+      const blob = new Blob([str], { type: 'text/markdown' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      document.body.appendChild(a);
+      a.download = document.getElementById("bb-filename").value + ".html";
+      a.href = url;
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+
+  </script>
+</body>
+
+</html>
