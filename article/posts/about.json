@@ -2,6 +2,6 @@
   "url": "./posts/about.md",
   "title": "About",
   "desc": "RedTownServerとは?",
-  "thumbnail": "/image/four-image-3.png",
+  "thumbnail": "/image/four-image-3.webp",
   "tags": ["サーバー"]
 }
