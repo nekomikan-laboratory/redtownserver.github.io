@@ -1,13 +1,4 @@
-<style type="text/css">
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-    border: 1px solid black;
-}
-</style>
 ![](https://i.imgur.com/1O1o2qU.jpg)
-
 
 ## 各イベントのルールのお披露目！
 **【注：変更の可能性があります】**
