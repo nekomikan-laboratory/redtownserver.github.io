@@ -23,3 +23,8 @@
 .recommend-outer {
   margin-bottom: 8em;
 }
+
+img {
+  width: 95%;
+  margin: 2.5%;
+}
