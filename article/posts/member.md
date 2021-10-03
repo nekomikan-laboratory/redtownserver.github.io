@@ -34,7 +34,7 @@ RTSを６年支えている鯖主。たまに動画投稿をしていたり、�
 ### プラグイン制作者（Developer）
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### Toto31010（とと）
-RTSのプラグイン系統の制作を支えている**優しい**プログラマー。このサイトも制作している。住所特定大好き！
+RTSのプラグイン系統の制作を支えている**優しい**プログラマー。このサイトも制作している。LINEはローマ字本名で、180度反転させると読めるようになる。
 [Twitter](https://twitter.com/Toto31010) 
 
 #### moru3_48
@@ -60,7 +60,7 @@ RTSのイベントプラグインを支える猛者。逃走中プラグイン�
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### 成超（HIMAJIN20001870）
 RTS史上初のデザイナー（新人）。Twitterでイラストを投稿していてフォロワーも上昇中。口癖は「ﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟ」。
-[Twitter](https://twitter.com/DoremiMS) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
+[Twitter](https://twitter.com/oEELfH7mFNElUPZ) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
 
 
 
