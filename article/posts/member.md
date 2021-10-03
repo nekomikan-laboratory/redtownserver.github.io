@@ -34,16 +34,13 @@ RTSを６年支えている鯖主。たまに動画投稿をしていたり、�
 ### プラグイン制作者（Developer）
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### Toto31010（とと）
-RTSのプラグイン系統の制作を支えている**優しい**プログラマー。恐らく技術力はすごい。このサイトも制作している。
+RTSのプラグイン系統の制作を支えている**優しい**プログラマー。このサイトも制作している。LINEはローマ字本名で、180度反転させると読めるようになる。
 [Twitter](https://twitter.com/Toto31010) 
 
 #### moru3_48
 RTSのイベントプラグインを支える猛者。逃走中プラグインの制作などをしている。面白いを超えて頭がおかしい、いじられキャラ。
 [Twitter](https://twitter.com/moru3_48) 
 
-#### 46kuri_（しろくり）
-イベントの実施を支えるようなプラグインを制作している人。MythicMobsを使用してMOBの制作も行っている。Twitterのどこかに自撮りがあるらしい！
-[Twitter](https://twitter.com/46kuri_) 
 
 
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
@@ -55,6 +52,16 @@ RTSのイベントプラグインを支える猛者。逃走中プラグイン�
 #### DoremiMS
 人気企画「青鬼」のコマンド制作者であり、主にイベントの動作に関わるコマンドを制作している。RTS運営がふざけだす元凶の一人。
 [Twitter](https://twitter.com/DoremiMS) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
+
+
+
+~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
+### デザイナー（Designer）
+~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
+#### 成超（HIMAJIN20001870）
+RTS史上初のデザイナー（新人）。Twitterでイラストを投稿していてフォロワーも上昇中。口癖は「ﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟ」。
+[Twitter](https://twitter.com/oEELfH7mFNElUPZ) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
+
 
 
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
