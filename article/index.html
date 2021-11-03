@@ -258,7 +258,7 @@
             dataType: 'text',
             success: function (dataValue) {
               if (articleFile.endsWith("md")) {
-                target.append(marked(dataValue));
+                target.append(marked.parse(dataValue));
               } else if (articleFile.endsWith("html")) {
                 target.append(dataValue);
               }
