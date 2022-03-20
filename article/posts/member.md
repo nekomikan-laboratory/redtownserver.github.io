@@ -58,9 +58,9 @@ RTSのイベントプラグインを支える猛者。逃走中プラグイン�
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 ### デザイナー（Designer）
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
-#### 成超（HIMAJIN20001870）
+#### 成超（SeiCh00o）
 RTS史上初のデザイナー（新人）。Twitterでイラストを投稿していてフォロワーも上昇中。口癖は「ﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟﾎﾟ」。
-[Twitter](https://twitter.com/oEELfH7mFNElUPZ) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
+[Twitter](https://twitter.com/SeiCh00o) [YouTube](https://www.youtube.com/channel/UCPXKINySFkIH5mZ2afHRYnw) 
 
 
 
@@ -69,4 +69,4 @@ RTS史上初のデザイナー（新人）。Twitterでイラストを投稿し�
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### AnmoNakaki
 「建築」「コマンド」「リソースパック」など幅広い制作を手掛ける新人運営さん。地味に面白い人なのではと期待している。
-[Twitter](https://twitter.com/Anki961) 
+[Twitter](https://twitter.com/RaRaKi9696) 
