@@ -1,79 +1,22 @@
 {
     "1": {
-       "title": "人狼PvP",
+       "title": "イベント情報は「MineAdd」で公開中！",
        "start": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 19,
-         "Hour": 15,
+         "Year": 2022,
+         "Month": 4,
+         "Day": 1,
+         "Hour": 0,
          "Minute": 0
        },
        "end": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 19,
-         "Hour": 18,
-         "Minute": 0
-       },
-       "description": "今回も「6種類」のRTS運営自作マップ使用！９月１９日日曜日１５：００～人狼 vs 村人 の究極の推理ゲーム！",
-       "url": "https://mineadd.bubbleapps.io/event/1631633097608x727456919892525000"
-     },
-    "2": {
-       "title": "情景アスレ",
-       "start": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 23,
-         "Hour": 21,
-         "Minute": 0
-       },
-       "end": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 23,
+         "Year": 2023,
+         "Month": 3,
+         "Day": 31,
          "Hour": 23,
-         "Minute": 0
+         "Minute": 59
        },
-       "description": "完全オリジナル「景観アスレ」マップで対決！９月２３日木曜日２１：００～難易度簡単・ギミック＆建築要素重視",
-       "url": "https://mineadd.bubbleapps.io/event/1631638888760x188413626520436740"
-     },
-    "3": {
-       "title": "青鬼",
-       "start": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 26,
-         "Hour": 15,
-         "Minute": 0
-       },
-       "end": {
-         "Year": 2021,
-         "Month": 9,
-         "Day": 26,
-         "Hour": 18,
-         "Minute": 0
-       },
-       "description": "青鬼の行動を予測・回避し脱出を目指せ！９月２６日日曜日１５：００～イージーモード・ノーマルモードの二種類用意",
-       "url": "https://mineadd.bubbleapps.io/event/1631712208334x687863540487290900"
-     },
-    "4": {
-       "title": "",
-       "start": {
-         "Year": 2021,
-         "Month": 10,
-         "Day": 3,
-         "Hour": 15,
-         "Minute": 0
-       },
-       "end": {
-         "Year": 2021,
-         "Month": 10,
-         "Day": 3,
-         "Hour": 18,
-         "Minute": 0
-       },
-       "description": "ミッションあり・オリジナルシステムも多数１０月３日日曜日１５：００～あのドキドキ感を改めて！協力してハンターから逃げ切ろう！",
-       "url": "https://mineadd.bubbleapps.io/event/1631713377269x200750551653154800"
+       "description": "「2022年度」については総合共有サービス【MineAdd】にてお知らせを行っています。",
+       "url": "https://mineadd.net/?menu=event"
      }
    }
    
