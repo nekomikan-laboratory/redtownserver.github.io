@@ -4,7 +4,7 @@
 ![](https://cdn.discordapp.com/attachments/909084994746609704/957284853823447062/unknown.png)
 ![](https://cdn.discordapp.com/attachments/909084994746609704/957294533715058728/unknown.png)
 ![](https://cdn.discordapp.com/attachments/909084994746609704/957284903333015622/unknown.png)
-![](https://cdn.discordapp.com/attachments/909084994746609704/957285698216534047/unknown.png)
+![](https://cdn.discordapp.com/attachments/909084994746609704/957303627570110524/unknown.png)
 
 ## 現在募集している役職
 この中から一つメインで活動する役職を選択していただきます。※印のないものであれば、役職に関わらず制作を行うことが可能です。<br>
