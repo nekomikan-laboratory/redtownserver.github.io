@@ -1,7 +1,7 @@
 ﻿{
-  "url": "./posts/recruitment.html",
-  "title": "運営募集",
+  "url": "./posts/recruitment.md",
+  "title": "運営募集(2022年度)",
   "desc": " ",
   "thumbnail": "/image/recruitment.webp",
-  "tags": ["サーバー", "運営"]
+  "tags": ["サーバー", "運営募集", "運営"]
 }
