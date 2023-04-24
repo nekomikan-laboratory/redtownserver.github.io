@@ -106,5 +106,7 @@ RTSのイベントプラグイン・サーバーを支える猛者。逃走中�
 なぜかBuilderからStreamerに移動した。積極的にモンハンなどのライブ放送を行っている。目指せ登録者１万人！
 [YouTube](https://www.youtube.com/@user-em1mu7ks1i/streams) [Twitter](https://twitter.com/senaro0710)
 
-※2023/4/25更新\n
+----------------------
+※2023/4/25更新
+
 ※長期休暇中のメンバーは除外しています。
