@@ -2,21 +2,59 @@
     "1": {
        "title": "イベント情報は「MineAdd」で公開中！",
        "start": {
-         "Year": 2022,
+         "Year": 2023,
          "Month": 4,
          "Day": 1,
          "Hour": 0,
          "Minute": 0
        },
        "end": {
-         "Year": 2023,
+         "Year": 2024,
          "Month": 3,
          "Day": 31,
          "Hour": 23,
          "Minute": 59
        },
-       "description": "「2022年度」については総合共有サービス【MineAdd】にてお知らせを行っています。",
+       "description": "総合共有サービス【MineAdd】にてお知らせを行っています。",
        "url": "https://mineadd.net/?menu=event"
+     },
+    "2": {
+       "title": "赤夏Festival2023 DAY1:ブースイベントセクション",
+       "start": {
+         "Year": 2023,
+         "Month": 8,
+         "Day": 26,
+         "Hour": 0,
+         "Minute": 0
+       },
+       "end": {
+         "Year": 2023,
+         "Month": 8,
+         "Day": 26,
+         "Hour": 23,
+         "Minute": 59
+       },
+       "description": "『文化祭×夏祭り』好きな企画を自由に回る新感覚イベント！",
+       "url": "https://akanatsufes2023.studio.site/booth"
+     },
+    "3": {
+       "title": "赤夏Festival2023 DAY2:ミニゲームイベントセクション",
+       "start": {
+         "Year": 2023,
+         "Month": 8,
+         "Day": 27,
+         "Hour": 0,
+         "Minute": 0
+       },
+       "end": {
+         "Year": 2023,
+         "Month": 8,
+         "Day": 27,
+         "Hour": 23,
+         "Minute": 59
+       },
+       "description": "『ミニゲーム×夏祭り』４種類のミニゲームを同時に楽しむ夏の祭典！",
+       "url": "https://akanatsufes2023.studio.site/minigame"
      }
    }
    
