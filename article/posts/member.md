@@ -14,8 +14,8 @@ RTSを６年支えている鯖主。たまに動画投稿をしていたり、�
 ### 建築士（Builder）
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### Baby_bear_boy（くま／ベビー）
-超完璧主義でやる気さえあればえげつないものを作る人。最近はTwitterできょーのけんちくをあげてたりする。
-[Twitter](https://twitter.com/kotokotobear) 
+超完璧主義でやる気さえあればえげつないものを作る人。テクスチャも作ったりしてる。
+[Twitter](https://twitter.com/Baby_0852)
 
 #### REUSU
 模写を得意とする建築士。現状では最古の運営の一人である。そういやれうすさん、昔生放送してたの思い出した。
@@ -23,11 +23,7 @@ RTSを６年支えている鯖主。たまに動画投稿をしていたり、�
 
 
 #### taiyaki10173
-たい焼き🐡。テーマに合った建築を制作してくれる強者。たい焼き🐡。今後の活躍にも期待！たい焼き🐡。
-
-#### Naetao
-未だに全然働いてないので、よくわからないけど多分すごい人！！！！ととさんともるさん大好き。
-[Twitter](https://twitter.com/Naetao_) 
+たい焼き🐡。テーマに合った建築を制作してくれる強者。たい焼き🐡。明日の晩御飯はたい焼き🐡。
 
 
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
@@ -38,8 +34,8 @@ RTSのプラグイン系統の制作を支えている**優しい**プログラ�
 [Twitter](https://twitter.com/Toto31010) 
 
 #### moru3_48
-RTSのイベントプラグインを支える猛者。逃走中プラグインの制作などをしている。面白いを超えて頭がおかしい、いじられキャラ。
-[Twitter](https://twitter.com/moru3_48) 
+RTSのイベントプラグインを支える猛者。逃走中プラグインの制作などをしている。面白いを超えて頭がおかしい。
+[Twitter](https://twitter.com/moruch4nn) 
 
 
 
@@ -48,11 +44,11 @@ RTSのイベントプラグインを支える猛者。逃走中プラグイン�
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
 #### haruaya
 イベントの動作に関わるコマンドを主に制作している、実力のあるコマンダー。RTS運営がふざけだす元凶の一人。
+[Twitter](https://twitter.com/_haruaya)
 
 #### DoremiMS
 人気企画「青鬼」のコマンド制作者であり、主にイベントの動作に関わるコマンドを制作している。RTS運営がふざけだす元凶の一人。
 [Twitter](https://twitter.com/DoremiMS) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
-
 
 
 ~~|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|~~
