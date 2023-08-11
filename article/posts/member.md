@@ -28,9 +28,9 @@ RTSを６年支えている鯖主。たまに動画投稿をしていたり、�
 たい焼き🐡。テーマに合った建築を制作してくれる強者。たい焼き🐡。明日の晩御飯はたい焼き🐡。
 
 
-#### ふくりか(Fukuringa)
-建築とコマンド、サーバー管理などができる新人様。ふくりかさんもサーバーを運営している。
-[Twitter](https://twitter.com/Fukuringa4649)
+#### うな
+建築とドット絵の制作担当。幅広くいろんなことをしてる、センスの塊。
+[Twitter](https://twitter.com/30unagi0602)
 
 
 #### はるさん
@@ -47,8 +47,8 @@ RTSのプラグイン系統の制作を支えている**優しい**プログラ�
 [Twitter](https://twitter.com/Toto31010) 
 
 
-#### moru3_48
-RTSのイベントプラグイン・サーバーを支える猛者。逃走中プラグインの制作などをしている。面白いを超えて頭がおかしい。
+#### moruch4nn
+RTSのイベントプラグインを支える猛者。逃走中プラグインの制作などをしている。面白いを超えて頭がおかしい、いじられキャラ。
 [Twitter](https://twitter.com/moruch4nn) 
 
 
@@ -63,8 +63,7 @@ RTSのイベントプラグイン・サーバーを支える猛者。逃走中�
 
 #### DoremiMS
 人気企画「青鬼」のコマンド制作者であり、主にイベントの動作に関わるコマンドを制作している。RTS運営がふざけだす元凶の一人。
-[Twitter](https://twitter.com/DoremiMS_) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) 
-[Twitch](https://www.twitch.tv/doremims)
+[Twitter](https://twitter.com/DoremiMS_) [YouTube](https://www.youtube.com/channel/UCYoXOU_H-IYKN_jVMjnanpA) [Twitch](https://www.twitch.tv/doremi_ms) 
 
 
 
@@ -107,6 +106,6 @@ RTSのイベントプラグイン・サーバーを支える猛者。逃走中�
 [YouTube](https://www.youtube.com/@user-em1mu7ks1i/streams) [Twitter](https://twitter.com/senaro0710)
 
 ----------------------
-※2023/4/25更新
+※2023/8/11 更新
 
 ※長期休暇中のメンバーは除外しています。
